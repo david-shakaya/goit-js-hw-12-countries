@@ -1,0 +1,37 @@
+<h1>contry</h1>
+<div class="wrapper-container">
+    <ul class="list-value">
+        {{#each this}}
+        <li>
+            <p>capital: {{this.capital}}</p>
+        </li>
+        <li>
+            <p>population: {{this.population}} </p>
+        </li>
+
+        {{#each languages}}
+        <li>
+            <p>languages:</p>
+            <ul>
+                <li>
+                    <p>{{this.name}}</p>
+                </li>
+            </ul>
+        </li>
+        {{/each}}
+
+        {{/each}}
+        <ul>
+        </ul>
+        </li>
+    </ul>
+    <svg href={{this.flag}}>
+    </svg>
+</div>
+
+{{!-- src={{'this.flag'}} alt="" width="300px"> --}}
+{{!-- {{#each this}}
+<li>
+    <p>{{this.name}}</p>
+</li>
+{{/each}} --}}

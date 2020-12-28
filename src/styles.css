@@ -7,3 +7,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+li {
+  list-style: none;
+}
+
+.wrapper-container {
+  display: flex;
+}
+.list-value {
+  margin-right: 50px;
+}

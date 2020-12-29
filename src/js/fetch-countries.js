@@ -11,6 +11,7 @@ const clearDom = () => refs.markupFromTempl.innerHTML = ''
     inputСountry:document.querySelector('.form-name-country-js'),
 }
 
+
 function fetchCountries() {
     fetch(`https://restcountries.eu/rest/v2/name/${query}`)
     .then(response => response.json())

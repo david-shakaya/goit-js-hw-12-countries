@@ -2,9 +2,6 @@ import './styles.css';
 import { fetchCountries, refs, clearDom } from './js/fetch-countries.js'
 import '../node_modules/toastr/build/toastr.css';
 import debounce from 'lodash.debounce'
-console.log(debounce);
-
-
 
 
 let query = ''
